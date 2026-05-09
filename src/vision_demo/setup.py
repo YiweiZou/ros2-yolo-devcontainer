@@ -15,12 +15,13 @@ setup(
     zip_safe=True,
     maintainer='you',
     maintainer_email='you@example.com',
-    description='minimal ros2 vision demo without camera',
+    description='ROS2 vision demo with YOLO inference',
     license='Apache-2.0',
+
     entry_points={
         'console_scripts': [
             'pub = vision_demo.publisher_node:main',
-            'sub = vision_demo.subscriber_node:main',
+            'yolo = vision_demo.yolo_node:main',
         ],
     },
 )
