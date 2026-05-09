@@ -1,0 +1,31 @@
+[4.184s] Invoking command in '/workspace/ros2_ws/src/vision_demo': PYTHONPATH=/workspace/ros2_ws/src/vision_demo/build/vision_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vision_demo build --build-base /workspace/ros2_ws/src/vision_demo/build/vision_demo/build install --record /workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log --single-version-externally-managed install_data
+[6.353s] running egg_info
+[6.463s] writing build/vision_demo/vision_demo.egg-info/PKG-INFO
+[6.482s] writing dependency_links to build/vision_demo/vision_demo.egg-info/dependency_links.txt
+[6.516s] writing entry points to build/vision_demo/vision_demo.egg-info/entry_points.txt
+[6.556s] writing requirements to build/vision_demo/vision_demo.egg-info/requires.txt
+[6.576s] writing top-level names to build/vision_demo/vision_demo.egg-info/top_level.txt
+[6.765s] reading manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+[6.929s] writing manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+[6.937s] running build
+[6.938s] running build_py
+[6.969s] copying vision_demo/publisher_node.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[7.000s] copying vision_demo/subscriber_node.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[7.038s] copying vision_demo/__init__.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[7.093s] running install
+[7.096s] running install_lib
+[7.217s] copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/publisher_node.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo
+[7.313s] copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/subscriber_node.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo
+[7.512s] byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/publisher_node.py to publisher_node.cpython-310.pyc
+[7.652s] byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/subscriber_node.py to subscriber_node.cpython-310.pyc
+[7.719s] running install_data
+[7.745s] copying resource/vision_demo -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/ament_index/resource_index/packages
+[7.792s] copying package.xml -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/vision_demo
+[7.835s] running install_egg_info
+[7.894s] removing '/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[8.047s] Copying build/vision_demo/vision_demo.egg-info to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info
+[8.539s] running install_scripts
+[9.092s] Installing pub script to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/vision_demo
+[9.114s] Installing sub script to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/vision_demo
+[9.131s] writing list of installed files to '/workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log'
+[9.155s] Invoked command in '/workspace/ros2_ws/src/vision_demo' returned '0': PYTHONPATH=/workspace/ros2_ws/src/vision_demo/build/vision_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vision_demo build --build-base /workspace/ros2_ws/src/vision_demo/build/vision_demo/build install --record /workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log --single-version-externally-managed install_data

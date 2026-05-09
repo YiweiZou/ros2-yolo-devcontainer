@@ -1,0 +1,35 @@
+[2.493s] Invoking command in '/workspace/ros2_ws/src/vision_demo': PYTHONPATH=/workspace/ros2_ws/src/vision_demo/build/vision_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vision_demo build --build-base /workspace/ros2_ws/src/vision_demo/build/vision_demo/build install --record /workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log --single-version-externally-managed install_data
+[3.480s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.481s]   warnings.warn(msg)
+[3.710s] running egg_info
+[3.736s] creating build/vision_demo/vision_demo.egg-info
+[3.741s] writing build/vision_demo/vision_demo.egg-info/PKG-INFO
+[3.767s] writing dependency_links to build/vision_demo/vision_demo.egg-info/dependency_links.txt
+[3.778s] writing entry points to build/vision_demo/vision_demo.egg-info/entry_points.txt
+[3.785s] writing requirements to build/vision_demo/vision_demo.egg-info/requires.txt
+[3.789s] writing top-level names to build/vision_demo/vision_demo.egg-info/top_level.txt
+[3.796s] writing manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+[3.891s] reading manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+[3.933s] writing manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+[3.937s] running build
+[3.938s] running build_py
+[3.940s] creating /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[3.953s] copying vision_demo/node.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[4.020s] copying vision_demo/__init__.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo
+[4.033s] running install
+[4.036s] running install_lib
+[4.111s] creating /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo
+[4.165s] copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/node.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo
+[4.196s] copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/__init__.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo
+[4.259s] byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/node.py to node.cpython-310.pyc
+[4.361s] byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/__init__.py to __init__.cpython-310.pyc
+[4.417s] running install_data
+[4.423s] creating /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/ament_index/resource_index/packages
+[4.456s] copying resource/vision_demo -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/ament_index/resource_index/packages
+[4.630s] copying package.xml -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/vision_demo
+[4.658s] running install_egg_info
+[4.727s] Copying build/vision_demo/vision_demo.egg-info to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info
+[5.171s] running install_scripts
+[5.590s] Installing demo_node script to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/vision_demo
+[5.609s] writing list of installed files to '/workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log'
+[5.631s] Invoked command in '/workspace/ros2_ws/src/vision_demo' returned '0': PYTHONPATH=/workspace/ros2_ws/src/vision_demo/build/vision_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vision_demo build --build-base /workspace/ros2_ws/src/vision_demo/build/vision_demo/build install --record /workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log --single-version-externally-managed install_data

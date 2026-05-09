@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (vision_demo) JobQueued: {'identifier': 'vision_demo', 'dependencies': OrderedDict()}
+[0.000548] (vision_demo) JobStarted: {'identifier': 'vision_demo'}
+[0.098594] (-) TimerEvent: {}
+[0.199524] (-) TimerEvent: {}
+[0.300417] (-) TimerEvent: {}
+[0.401101] (-) TimerEvent: {}
+[0.501649] (-) TimerEvent: {}
+[0.602202] (-) TimerEvent: {}
+[0.703068] (-) TimerEvent: {}
+[0.803896] (-) TimerEvent: {}
+[0.910591] (-) TimerEvent: {}
+[1.012727] (-) TimerEvent: {}
+[1.113258] (-) TimerEvent: {}
+[1.213873] (-) TimerEvent: {}
+[1.314813] (-) TimerEvent: {}
+[1.417813] (-) TimerEvent: {}
+[1.518839] (-) TimerEvent: {}
+[1.619466] (-) TimerEvent: {}
+[1.720333] (-) TimerEvent: {}
+[1.821337] (-) TimerEvent: {}
+[1.931857] (-) TimerEvent: {}
+[2.032447] (-) TimerEvent: {}
+[2.133014] (-) TimerEvent: {}
+[2.234428] (-) TimerEvent: {}
+[2.335696] (-) TimerEvent: {}
+[2.436154] (-) TimerEvent: {}
+[2.476185] (vision_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/vision_demo', 'build', '--build-base', '/workspace/ros2_ws/src/vision_demo/build/vision_demo/build', 'install', '--record', '/workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/ros2_ws/src/vision_demo', 'env': {'HOSTNAME': 'b4fb057afcde', 'GIT_ASKPASS': '/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.85.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-ebd82481-1c81-44ed-9180-48d7f993d505.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-72847ad2-f055-49db-9da8-29250481317b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-72847ad2-f055-49db-9da8-29250481317b.sock","/tmp/.X11-unix/X2","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-e9c3e98439.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-72847ad2-f055-49db-9da8-29250481317b.sock', 'AMENT_PREFIX_PATH': '/workspace/ros2_ws/install/vision_demo:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/ros2_ws/src/vision_demo/build/vision_demo', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/ros2_ws/src/vision_demo/build/vision_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages:/workspace/ros2_ws/install/vision_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.536269] (-) TimerEvent: {}
+[2.636715] (-) TimerEvent: {}
+[2.737308] (-) TimerEvent: {}
+[2.837970] (-) TimerEvent: {}
+[2.938857] (-) TimerEvent: {}
+[3.045007] (-) TimerEvent: {}
+[3.147876] (-) TimerEvent: {}
+[3.248634] (-) TimerEvent: {}
+[3.349089] (-) TimerEvent: {}
+[3.449872] (-) TimerEvent: {}
+[3.479513] (vision_demo) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[3.480755] (vision_demo) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[3.550020] (-) TimerEvent: {}
+[3.653028] (-) TimerEvent: {}
+[3.708535] (vision_demo) StdoutLine: {'line': b'running egg_info\n'}
+[3.735994] (vision_demo) StdoutLine: {'line': b'creating build/vision_demo/vision_demo.egg-info\n'}
+[3.740735] (vision_demo) StdoutLine: {'line': b'writing build/vision_demo/vision_demo.egg-info/PKG-INFO\n'}
+[3.753262] (-) TimerEvent: {}
+[3.766497] (vision_demo) StdoutLine: {'line': b'writing dependency_links to build/vision_demo/vision_demo.egg-info/dependency_links.txt\n'}
+[3.777696] (vision_demo) StdoutLine: {'line': b'writing entry points to build/vision_demo/vision_demo.egg-info/entry_points.txt\n'}
+[3.784080] (vision_demo) StdoutLine: {'line': b'writing requirements to build/vision_demo/vision_demo.egg-info/requires.txt\n'}
+[3.788899] (vision_demo) StdoutLine: {'line': b'writing top-level names to build/vision_demo/vision_demo.egg-info/top_level.txt\n'}
+[3.796156] (vision_demo) StdoutLine: {'line': b"writing manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'\n"}
+[3.853389] (-) TimerEvent: {}
+[3.889910] (vision_demo) StdoutLine: {'line': b"reading manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'\n"}
+[3.932776] (vision_demo) StdoutLine: {'line': b"writing manifest file 'build/vision_demo/vision_demo.egg-info/SOURCES.txt'\n"}
+[3.936492] (vision_demo) StdoutLine: {'line': b'running build\n'}
+[3.937762] (vision_demo) StdoutLine: {'line': b'running build_py\n'}
+[3.939734] (vision_demo) StdoutLine: {'line': b'creating /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo\n'}
+[3.953061] (vision_demo) StdoutLine: {'line': b'copying vision_demo/node.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo\n'}
+[3.954345] (-) TimerEvent: {}
+[4.020462] (vision_demo) StdoutLine: {'line': b'copying vision_demo/__init__.py -> /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo\n'}
+[4.033629] (vision_demo) StdoutLine: {'line': b'running install\n'}
+[4.036190] (vision_demo) StdoutLine: {'line': b'running install_lib\n'}
+[4.054495] (-) TimerEvent: {}
+[4.110043] (vision_demo) StdoutLine: {'line': b'creating /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo\n'}
+[4.154788] (-) TimerEvent: {}
+[4.162785] (vision_demo) StdoutLine: {'line': b'copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/node.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo\n'}
+[4.196113] (vision_demo) StdoutLine: {'line': b'copying /workspace/ros2_ws/src/vision_demo/build/vision_demo/build/lib/vision_demo/__init__.py -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo\n'}
+[4.254801] (vision_demo) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/node.py to node.cpython-310.pyc\n'}
+[4.260165] (-) TimerEvent: {}
+[4.359805] (vision_demo) StdoutLine: {'line': b'byte-compiling /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo/__init__.py to __init__.cpython-310.pyc\n'}
+[4.362419] (-) TimerEvent: {}
+[4.416654] (vision_demo) StdoutLine: {'line': b'running install_data\n'}
+[4.422474] (vision_demo) StdoutLine: {'line': b'creating /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/ament_index/resource_index/packages\n'}
+[4.454891] (vision_demo) StdoutLine: {'line': b'copying resource/vision_demo -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/ament_index/resource_index/packages\n'}
+[4.462558] (-) TimerEvent: {}
+[4.563625] (-) TimerEvent: {}
+[4.628564] (vision_demo) StdoutLine: {'line': b'copying package.xml -> /workspace/ros2_ws/src/vision_demo/install/vision_demo/share/vision_demo\n'}
+[4.655652] (vision_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.663804] (-) TimerEvent: {}
+[4.723707] (vision_demo) StdoutLine: {'line': b'Copying build/vision_demo/vision_demo.egg-info to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info\n'}
+[4.764024] (-) TimerEvent: {}
+[4.866825] (-) TimerEvent: {}
+[4.968519] (-) TimerEvent: {}
+[5.069517] (-) TimerEvent: {}
+[5.169884] (vision_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[5.172048] (-) TimerEvent: {}
+[5.272707] (-) TimerEvent: {}
+[5.373350] (-) TimerEvent: {}
+[5.475180] (-) TimerEvent: {}
+[5.576344] (-) TimerEvent: {}
+[5.589652] (vision_demo) StdoutLine: {'line': b'Installing demo_node script to /workspace/ros2_ws/src/vision_demo/install/vision_demo/lib/vision_demo\n'}
+[5.608370] (vision_demo) StdoutLine: {'line': b"writing list of installed files to '/workspace/ros2_ws/src/vision_demo/build/vision_demo/install.log'\n"}
+[5.630535] (vision_demo) CommandEnded: {'returncode': 0}
+[5.676466] (-) TimerEvent: {}
+[5.777574] (-) TimerEvent: {}
+[5.879704] (-) TimerEvent: {}
+[5.980321] (-) TimerEvent: {}
+[6.083440] (-) TimerEvent: {}
+[6.115089] (vision_demo) JobEnded: {'identifier': 'vision_demo', 'rc': 0}
+[6.142837] (-) EventReactorShutdown: {}

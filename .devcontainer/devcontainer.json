@@ -1,0 +1,36 @@
+{
+  "name": "ros2-dev-desktop",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "runArgs": [
+    "--gpus=all",
+    "--network=host",
+    "-v", "${localWorkspaceFolder}:/ros2_ws"
+  ],
+
+  "workspaceFolder": "/ros2_ws",
+
+  "remoteUser": "root",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-python.python",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+
+  "postCreateCommand": "bash -c 'source /opt/ros/humble/setup.bash && echo ROS2_READY=1'",
+
+  "postStartCommand": "bash -c 'source /opt/ros/humble/setup.bash'",
+
+  "remoteEnv": {
+    "ROS_DISTRO": "humble",
+    "PYTHONUNBUFFERED": "1"
+  }
+}

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/vision_demo/vision_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/vision_demo/vision_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/vision_demo/vision_demo.egg-info/entry_points.txt
+writing requirements to ../../build/vision_demo/vision_demo.egg-info/requires.txt
+writing top-level names to ../../build/vision_demo/vision_demo.egg-info/top_level.txt
+reading manifest file '../../build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/vision_demo/vision_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspaces/ros2_ws/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/vision_demo/vision_demo.egg-info to /workspaces/ros2_ws/install/vision_demo/lib/python3.10/site-packages/vision_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub script to /workspaces/ros2_ws/install/vision_demo/lib/vision_demo
+Installing sub script to /workspaces/ros2_ws/install/vision_demo/lib/vision_demo
+writing list of installed files to '/workspaces/ros2_ws/build/vision_demo/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+pub = vision_demo.publisher_node:main
+sub = vision_demo.subscriber_node:main
